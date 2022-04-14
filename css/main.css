@@ -1,0 +1,393 @@
+:root {
+   --white: #fff;
+   --gray: #cdcdcd;
+   --apricot: #f1cdb3;
+}
+
+body {
+   font-family: Georgia;
+}
+
+.container {
+   max-width: 60.94%;
+   margin: 0 auto;
+}
+
+.container-slider {
+   max-width: 60.94%;
+   margin: 0 auto;
+}
+
+.header {
+   background-image: url('../img/bg-header.png');
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: 100% auto;
+   aspect-ratio: 1920 / 925;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   height: 50px;
+   padding-top: 60px;
+}
+
+.logo__block .span__logo {
+   font-family: Georgia;
+   font-size: 32px;
+   font-weight: normal;
+   color: var(--apricot);
+   letter-spacing: 0.06em;
+}
+
+.logo__block p {
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 13px;
+   letter-spacing: 0.1em;
+   color: var(--white);
+   margin-top: 12px;
+}
+
+.ul__links__header {
+   display: flex;
+   margin-left: auto;
+}
+
+.ul__links__header li a {
+   font-family: Arial;
+   color: var(--gray);
+   font-size: 15px;
+   margin-left: 40px;
+}
+
+.ul__links__header li:nth-child(2) a {
+   color: var(--white);
+   border-bottom: 2px solid #f1cdb3;
+}
+
+.menu-open {
+   display: none;
+   background-color: transparent;
+   z-index: 9999;
+}
+
+.header .show-menu {
+   display: block;
+   position: absolute;
+   background-color: rgba(38, 34, 34, 0.99);
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 9999;
+   padding-bottom: 200%;
+   padding-top: 25%;
+}
+
+.header .show-menu li {
+   text-align: center;
+   padding-top: 4%;
+}
+
+.header .show-menu li a{
+   font-size: 35px;
+   line-height: 1.5em;
+   color: var(--gray);
+   border-bottom: 2px solid #574f4f;
+}
+
+.content__header {
+   position: absolute;
+   top: 35%;
+   width: 27%;
+}
+
+.content__header h1 {
+   font-size: 44px;
+   color: var(--white);
+   letter-spacing: 0.06em;
+   line-height: 1.33em;
+   font-family: Georgia;
+}
+
+.content__header p {
+   padding-top: 6%;
+   font-size: 15px;
+   color: var(--gray);
+   line-height: 1.6em;
+   font-family: Arial;
+}
+
+.content__header a button {
+   margin-top: 6%;
+   font-size: 17px;
+   color: #292929;
+   padding: 19px 43px 19px 43px;
+   border-radius: 40px;
+   background-color: var(--apricot);
+}
+
+/* section  about Us*/
+
+.about__us {
+   margin-top: 90px;
+}
+
+.flex__about {
+   padding-left: 14.7%;
+   display: flex;
+}
+
+.text__pets {
+   padding-left: 12%;
+   padding-top: 3%;
+}
+
+.pets h1 {
+   display: none;
+}
+
+.text__pets h1 {
+   font-weight: 400;
+   font-size: 35px;
+   color: #545454;
+   line-height: 1.33em;
+}
+
+
+.description {
+   width: 74%;
+   padding-top: 5%;
+}
+
+.description p {
+   font-family: Arial;
+   color: #4c4c4c;
+   font-size: 15px;
+   line-height: 1.6em;
+}
+
+/* section animal slider */
+
+.animal_slider {
+   background-color: #f6f6f6;
+   margin-top: 85px;
+   padding-bottom: 3.5%;
+}
+
+.main__text__animail-slider h1 {
+   text-align: center;
+   font-size: 35px;
+   line-height: 1.2em;
+   color: #545454;
+   padding: 6.8% 0 6.8% 0;
+}
+
+.img-slider__image {
+   padding-top: 35px;
+}
+
+.img-slider__image img {
+   max-width: 80%;
+   height: 216px;
+}
+
+.swiper-wrapper {
+   text-align: center;
+}
+
+.swiper-slide {
+   background-color: #fafafa;
+   border-radius: 5px;
+   padding-bottom: 5%;
+}
+
+.sub__slide {
+   padding-top: 9%;
+}
+
+.sub__slide h2 {
+   font-size: 20px;
+   color: #545454;
+}
+
+.brn__more {
+   padding-top: 25px;
+}
+
+.sub__slide button {
+   height: 52px;
+   width: 188px;
+   border: 2px solid #f1cdb3;
+   border-radius: 26px;
+   background-color: #fff;
+   color: #292929;
+   font-size: 17px;
+}
+
+.other {
+   text-align: center;
+   margin-top: 6.4%;
+}
+
+.btn__other {
+   font-size: 17px;
+   color: #292929;
+   background-color: #f1cdb3;
+   border-radius: 26px;
+   width: 33%;
+   height: 52px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   color: #292929;
+}
+
+/* section help tp the shelter */
+
+.help__shelter {
+   margin-top: 5%;
+}
+
+.help__shelter .container {
+   padding: 0 6.6% 0 6.6%;
+   text-align: center;
+}
+
+.title__text-help-shelter h1 {
+   font-size: 35px;
+   color: #545454;
+   line-height: 1.33em;
+}
+
+.help__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* padding-top: 80px; */
+   padding-top: 10%;
+}
+
+.help__list__row__2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 85px 6% 0 6%;
+}
+
+.item__help h3 {
+   padding-top: 20px;
+   font-size: 20px;
+   color: #545454;
+}
+
+/* section donate */
+
+.section__donate {
+   background-color: #f6f6f6;
+   margin-top: 5%;
+}
+
+.section__donate .container {
+   padding: 3.8% 0 3.8% 0;
+}
+
+.content__donate {
+   display: flex;
+}
+
+.info__donate {
+   padding-left: 65px;
+}
+
+.info__donate h1 {
+   font-size: 35px;
+   color: #545454;
+   line-height: 1.33em;
+   margin-top: -2%;
+}
+
+.bank__info h5 {
+   font-size: 15px;
+   color: #545454;
+   padding-top: 35px;
+}
+
+.bank__card {
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   font-family: 'Times New Roman';
+   justify-content: center;
+   width: 53.2%;
+   background-color: #f1cdb3;
+   border-radius: 9px;
+   height: 47px;
+   margin-top: 3%;
+}
+
+.bank__card img {
+   padding-right: 5%;
+}
+
+.desc__donate {
+   font-size: 12px;
+   line-height: 1.5em;
+   font-family: Arial;
+   color: #b2b2b2;
+   width: 58.5%;
+   margin-top: 5%;
+}
+
+/* footer */
+
+.footer {
+   background-image: url('../img/footer.png');
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: 100% 100%;
+   aspect-ratio: 1920 / 362;
+}
+
+.footer .container {
+   padding: 4.4% 0 2% 0;
+}
+
+.flex__footer {
+   display: flex;
+}
+
+.contact__info {
+   width: max-content;
+}
+
+.contact__info,
+.footer__right h1 {
+   color: #fff;
+   font-size: 35px;
+   line-height: 1.3em;
+   letter-spacing: 0.1em;
+}
+
+.sub__contact__info {
+   display: flex;
+   align-items: center;
+}
+
+.sub__contact__info {
+   margin-top: 12%;
+}
+
+.sub__contact__info p {
+   font-family: 'Times New Roman';
+   font-size: 20px;
+   color: #f1cdb3;
+   padding-left: 6.5%;
+   letter-spacing: 1px;
+}
+
+.footer__right {
+   margin-left: 14.5%;
+}

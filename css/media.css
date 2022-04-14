@@ -1,0 +1,302 @@
+@media screen and (max-width: 1782px) {
+   .info__donate h1 {
+      font-size: 33px;
+   }
+
+   .content__header {
+      top: 30%;
+   }
+}
+
+@media screen and (max-width: 1747px) {
+   .bank__card {
+      font-size: 17px;
+   }
+}
+
+@media screen and (max-width: 1700px) {
+   .contact__info, .footer__right h1 {
+      font-size: 30px;
+   }
+   .sub__contact__info p {
+      font-size: 17px;
+   }
+}
+
+@media screen and (max-width: 1733px) {
+   .info__donate h1 {
+      font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 1661px) {
+   .info__donate h1 {
+      font-size: 28px;
+   }
+}
+
+@media screen and (max-width: 1639px) {
+   .bank__card {
+      font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 1612px) {
+   .info__donate h1 {
+      font-size: 26px;
+   }
+}
+
+@media screen and (max-width: 1568px) {
+   .bank__card {
+      font-size: 13px;
+   }
+   .btn__other {
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width:1564px) {
+   .info__donate h1 {
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-width:1550px) {
+   .container {
+      max-width: 75%;
+   }
+   .content__header {
+      width: 35%;
+   }
+}
+
+@media screen and (max-width:1440px) {
+   .content__header {
+      top: 24%;
+   }
+}
+
+
+
+@media screen and (max-width:1238px) {
+   .container {
+      max-width: 80%;
+   }
+}
+
+
+@media screen and (max-width:1199px) {
+   .container {
+      max-width: 85%;
+   }
+   .content__header {
+      top: 20%;
+   }
+   .content__header h1 {
+      font-size: 34px;
+   }
+   .content__header p {
+      font-size: 13px;
+   }
+   .text__pets h1 {
+      font-size: 30px;
+   }
+   .description p {
+      font-size: 13px;
+   }
+   .main__text__animail-slider h1 {
+      font-size: 30px;
+   }
+   .sub__slide h2 {
+      font-size: 17px;
+   }
+   .sub__slide button {
+      font-size: 15px;
+   }
+   .title__text-help-shelter h1 {
+      font-size: 30px;
+   }
+   .item__help h3 {
+      font-size: 17px;
+   }
+   .contact__info, .footer__right h1 {
+      font-size: 25px;
+   }
+   .sub__contact__info p {
+      font-size: 15px;
+   }
+   .sub__slide button {
+      width: 90%;
+   }
+   .btn__other {
+      width: 38%;
+   }
+   .bank__card {
+      width: 70%;
+   }
+}
+
+@media screen and (max-width: 1086px) {
+   .info__donate h1 {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 1017px) {
+   .info__donate h1 {
+      font-size: 18px;
+   }
+}
+
+@media screen and (max-width:992px) {
+   .content__header {
+      top: 17%;
+   }
+   .container,.container-slider {
+      max-width: 90%;
+   }
+   .content__header h1 {
+      font-size: 30px;
+   }
+   .content__header p {
+      font-size: 12px;
+   }
+   .bank__card {
+      width: 60%;
+   }
+   .logo__block .span__logo {
+      font-size: 28px;
+   }
+   .logo__block p {
+      font-size: 11px;
+   }
+   .content__header a button {
+      font-size: 14px;
+      padding: 5% 14% 5% 14%;
+   }
+   .ul__links__header li a {
+      font-size: 14px;
+   }
+   .desc__donate {
+      width: 100%;
+   }
+   .contact__info, .footer__right h1 {
+      font-size: 22px;
+   }
+   .sub__contact__info p {
+      font-size: 13px;
+   }
+   .image__donate {
+      width: 100%;
+   }
+   .image__donate img {
+      max-width: 100%;
+   }
+   .pets {
+      width: 100%;
+   }
+   .pets img {
+      max-width:100%;
+      margin-top: 7%;
+      padding-left: 25%;
+   }
+   .flex__about {
+      align-items: center;
+   }
+   .flex__about {
+      padding-left: 10%;
+   }
+   .text__pets {
+      padding-left: 5%;
+   }
+
+   .flex__about {
+      padding-left: 0;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .pets {
+      width: auto;
+   }
+   .text__pets {
+      padding-left: 0;
+      padding-top: 0;
+      display: flex;
+      justify-content:center;
+   }
+   .text__pets h1 {
+      display: none;
+   }
+   .description {
+      padding-top: 0;
+   }
+   .description p {
+      font-size: 15px;
+      text-align: justify;
+   }
+   .pets h1 {
+      display: block;
+      font-weight: 400;
+      font-size: 35px;
+      color: #545454;
+      line-height: 1.33em;
+      text-align: center;
+   }
+   .about__us {
+      margin-top: 50px;
+   }
+}
+
+@media screen and (max-width:865px) {
+   .content__header {
+      top: 15%;
+   }
+}
+
+@media screen and (max-width:880px) {
+   .contact__info, .footer__right h1 {
+      font-size: 18px;
+   }
+   .sub__contact__info p {
+      font-size: 11px;
+   }
+   .item__help h3 {
+      font-size: 15px;
+   }
+   .title__text-help-shelter h1, .main__text__animail-slider h1, .text__pets h1 {
+      font-size: 26px;
+   }
+}
+
+@media screen and (max-width:809px) {
+   .ul__links__header li a {
+      font-size: 12px;
+   }
+   .content__header h1 {
+      font-size: 26px;
+   }
+   .content__header p {
+      font-size: 10px;
+   }
+   .logo__block .span__logo {
+      font-size: 26px;
+   }
+   .ul__links__header li a {
+      margin-left: 30px;
+   }
+   .nav {
+      padding-top: 30px;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .menu-open {
+      display: block;
+      margin-left: auto;
+   }
+
+   .ul__links__header {
+      display: none;
+   }
+}
